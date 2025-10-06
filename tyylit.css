@@ -1,0 +1,286 @@
+div {
+    border: 1px;
+    /*
+    border-color: #434A3D;
+    border-style: dotted;
+*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navigaatio ylös */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #434A3D;
+}
+
+ul li {
+    float: center;
+}
+
+ul li a {
+    display: block;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #666666;
+}
+
+/* Taustakuva, joka koko ruudun levyinen*/
+header {
+    background-image: url(paakuva.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+}
+
+/* poluilla sivun header. Vähän tummennusta kuvaan, jotta teksti näkyy.*/
+.poluilla {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Tuuli_Nuuksio.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 10% 0px 15px 0px;
+    margin: 0px;
+}
+
+/* Vesillä sivun header. Vähän tummennusta kuvaan, jotta teksti näkyy.*/
+.vesilla {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Tuuli_Saaristomeri.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0px 15px 0px;
+    margin: 0px;
+}
+
+/* Eväät sivun header. Vähän tummennusta kuvaan, jotta teksti näkyy.*/
+.evaat {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Kokkailu.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0px 15px 0px;
+    margin: 0px;
+}
+
+/* Etuvisvun otsikko*/
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #F5F5F5;
+    padding: 150px 10px 150px 10px;
+}
+
+/*Lainausten muotoilu, väri napattu pääotsikon kuvasta*/
+.quote {
+    font-size: 32px;
+    text-align: center;
+    color: #434A3D;
+    width: 90%;
+    margin: auto;
+}
+
+/* Pääsivun osio esittelyt. Kuva pohjalla. Vähän tummennusta kuvaan, jotta teksti näkyy.*/
+.section1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(metsassa.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    margin: 0px;
+}
+
+/* Pääsivun osio esittelyt. Kuva pohjalla. Vähän tummennusta kuvaan, jotta teksti näkyy.*/
+.section2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(vesilla.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 15px 15px 15px;
+    margin: 0px;
+}
+
+/* Pääsivun osio esittelyt. Kuva pohjalla. Vähän tummennusta kuvaan, jotta teksti näkyy.*/
+.section3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(evaat.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    margin: 0px;
+}
+
+/* osioiden leveyden ja fonttikoon määrittely*/
+section {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* bullet listan määrittely eväät sivulle*/
+ol {
+    list-style-type: circle;
+    margin: 20px;
+    padding: 0px;
+    background-color: #F5F5F5;
+
+}
+
+/* Tuleeko käyttöön? Teenkö ingressin ekasta kappaleesta isommalla fontilla?.*/
+.lead {
+    font-family: 30px;
+}
+
+/* Osion kuvamäärittelyt.*/
+section img {
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+}
+
+/* osion attribuutin määrittely.*/
+a {
+    text-align: center;
+    color: #434A3D;
+    padding: 15px 15px 15px 15px;
+}
+
+/* Pääsivun napit.*/
+.button-class {
+    background-color: #434A3D;
+    border: none;
+    color: #F5F5F5;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 8px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    border-color: #434A3D;
+    display: block;
+    margin: 8px auto;
+}
+
+.button-class:hover {
+    background-color: #666666;
+}
+
+.content h3 {
+    font-size: 20px;
+    text-align: left;
+    color: #434A3D;
+}
+
+/* Footerin määrittely*/
+footer {
+    background-color: #434A3D;
+}
+
+footer p {
+    color: #F5F5F5;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+}
+
+/*miten näkyy pienemmillä näytöillä min 650px*/
+@media screen and (min-width: 650px) {
+    ul li {
+        float: left;
+    }
+
+    section {
+        width: 85%;
+    }
+
+    header h1 {
+        font-size: 70px;
+
+    }
+
+    .quote {
+        width: 85%;
+    }
+
+}
+
+/*isompien ruutujen näkymä*/
+@media screen and (min-width: 1025px) {
+    section {
+        width: 55%;
+    }
+
+    header h1 {
+        font-size: 60px;
+        padding: 200px 10px 200px 10px;
+    }
+
+    .quote {
+        font-size: 32px;
+        width: 55%;
+    }
+
+    /*osiot 2 sarakkeessa*/
+    .row {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        /* kuvan ja tekstin väli*/
+    }
+
+    .column img {
+        width: 50%;
+        padding: 60px 20px 10px 40px;
+        border-radius: 10px;
+        /* pyöristetyt kulmat */
+    }
+
+    .column {
+        float: left;
+        width: 40%;
+        padding-right: 10%;
+        /* tasalevyiset */
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+}
