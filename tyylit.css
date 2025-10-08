@@ -36,7 +36,7 @@ ul {
 }
 
 ul li {
-    float: center;
+    text-align: center;
 }
 
 ul li a {
@@ -159,10 +159,6 @@ ol {
 
 }
 
-/* Tuleeko käyttöön? Teenkö ingressin ekasta kappaleesta isommalla fontilla?.*/
-.lead {
-    font-family: 30px;
-}
 
 /* Osion kuvamäärittelyt.*/
 section img {
